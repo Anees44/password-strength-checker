@@ -1,0 +1,74 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    background: #6a0dad;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Main Container */
+.container {
+    background: white;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Input Field */
+.input-box {
+    position: relative;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Show/Hide Password Button */
+#toggle-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Password Strength Indicator */
+.strength-indicator {
+    height: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: lightgray;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Strength Colors */
+.weak { background: red; width: 33%; }
+.medium { background: orange; width: 66%; }
+.strong { background: green; width: 100%; }
+
+/* Strength Text */
+#strength-text {
+    font-weight: bold;
+    margin-top: 10px;
+}
