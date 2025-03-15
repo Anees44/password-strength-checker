@@ -5,8 +5,8 @@ This is a simple **Password Strength Checker** that provides real-time feedback 
 Live Demo:
 
 You can check the live demo here:  
-- **GitHub Pages:** [https://yourusername.github.io/password-strength-checker/](https://Anees44.github.io/password-strength-checker/)  
-- **Vercel:** [https://password-checker.vercel.app/](https://password-checker.vercel.app/)
+- GitHub Pages: [Link](https://Anees44.github.io/password-strength-checker/)  
+- Vercel: [Link](password-strength-checker-flax.vercel.app)
 
 
  Features:
